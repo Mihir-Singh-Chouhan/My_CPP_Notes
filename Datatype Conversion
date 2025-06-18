@@ -1,0 +1,14 @@
+# Datatype-Conversion-
+
+#include <iostream>
+using namespace std;
+
+void type(short i){ //also int/char i will work but datatype will be : int(i)/char(c)
+    cout<<"Data Type : "<<typeid(i).name();
+}
+int main(){
+    cout<<" value:5 "<<endl;
+char i ='5'; // here value is 5 ,but if use i = 5 then it will take ASCII
+cout<<--i<<endl;
+type(i);
+}
